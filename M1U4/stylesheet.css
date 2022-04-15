@@ -1,5 +1,11 @@
 /*Utilizado para index y Pag1*/
 /*font-family: 'Merriweather', serif;*/
+
+.contenedor-personal{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+
+}
 p {
     color: rgb(194, 16, 16);
     font-family: Georgia, 'Times New Roman', Times, serif;
