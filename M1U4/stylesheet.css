@@ -1,5 +1,5 @@
 /*Utilizado para index y Pag1*/
-
+/*font-family: 'Merriweather', serif;*/
 p {
     color: rgb(194, 16, 16);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,19 +34,45 @@ form {
     text-transform: uppercase;
 }
 
-#importante{
+#importante {
     width: 300px;
     height: 200px;
     background-color: rgb(61, 140, 231);
     padding: 20px;
+    /*margen dentro del box*/
+    box-sizing: border-box;
+    /*ajusta el box*/
+    border-radius: 10px;
+    font-family: 'Merriweather', serif;
 }
 
-#txtnegrita{
+#txtnegrita {
     font-weight: bold;
-
+    background: #f6a75b;
+    background: linear-gradient(346deg, #f6a75b 0%, #7fe27f 80%);
+    background: -webkit-linear-gradient(346deg, #f6a75b 0%, #7fe27f 80%);
+    background: -moz-linear-gradient(346deg, #f6a75b 0%, #7fe27f 80%);
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
-.imagenfid{
+
+.imagenfid {
+    width: 400px;
+    height: 300px;
+    background-color: #7fe27f;
+    margin:auto;
     text-align: center;
+     
+}
+.imagenfid img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 0px 0px 47px 4px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px 0px 47px 4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 47px 4px rgba(0, 0, 0, 0.75);
     
+
 }
