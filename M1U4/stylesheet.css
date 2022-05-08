@@ -1,11 +1,12 @@
 /*Utilizado para index y Pag1*/
 /*font-family: 'Merriweather', serif;*/
 
-.contenedor-personal{
+.contenedor-personal {
     text-align: center;
     font-family: 'Merriweather', serif;
 
 }
+
 p {
     color: rgb(194, 16, 16);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -69,31 +70,46 @@ form {
     width: 400px;
     height: 300px;
     background-color: #7fe27f;
-    margin:auto;
+    margin: auto;
     text-align: center;
-     
+
 }
+
 .imagenfid img {
     width: 200px;
     height: 200px;
     box-shadow: 0px 0px 47px 4px rgba(0, 0, 0, 0.75);
     -webkit-box-shadow: 0px 0px 47px 4px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 0px 47px 4px rgba(0, 0, 0, 0.75);
-    
+
 }
+
 /*----------Navegador----------*/
 
-.cont-principal{
+.Navegador {
 
     display: flex;
     justify-content: center;
 
 }
 
-.Paginas-link{
+.Paginas-link {
+
     display: flex;
+    justify-content: space-evenly;
+
     background-color: aquamarine;
+    border: black solid medium;
     width: 200px;
     height: auto;
+    font-size: 25px;
+    padding: 5px;
+
+}
+
+.Numeropag {
+
+    border: black solid thin;
+    display: flex;
 
 }
