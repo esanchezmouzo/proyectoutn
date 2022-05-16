@@ -1,0 +1,18 @@
+body{
+    background-color: bisque;
+}
+.navbar-brand {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.container-carousel{
+    border: 20px;
+
+}
+.carousel-item{
+    max-height: 25rem;
+   
+}
+
