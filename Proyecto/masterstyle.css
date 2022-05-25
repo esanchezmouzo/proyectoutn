@@ -1,0 +1,101 @@
+/*font-family: 'Merriweather', serif;
+font-family: 'Noto Serif', serif;*/
+
+/*----------Header----------*/
+header {
+    background: rgba(27, 146, 64, 0.67);
+    background: linear-gradient(180deg, rgba(27, 146, 64, 0.67) 20%, #f3f3f3 80%);
+    background: -webkit-linear-gradient(180deg, rgba(27, 146, 64, 0.67) 20%, #f3f3f3 80%);
+    background: -moz-linear-gradient(180deg, rgba(27, 146, 64, 0.67) 20%, #f3f3f3 80%);
+    padding: 16px;
+    display: flex;
+
+}
+
+.titulo {
+    display: flex;
+    align-items: flex-end;
+    padding: 5px;
+
+}
+
+.box {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    border-radius: 20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    border: 3px solid #000000;
+    justify-content: center;
+    align-items: center;
+}
+.texto-titulo{
+    padding-left: 30px;
+}
+
+/*----------Body----------*/
+
+body {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.carousel-inner {
+    max-height: 400px;
+    
+}
+.carousel-item{
+    margin-left: 9.5rem;
+
+}
+
+footer{
+    background-color: rgba(27, 146, 64, 0.67);
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.horarios{
+    background: #ffffff;
+    background: linear-gradient(270deg,#ffffff 0%, #329d32 80%);
+    background: -webkit-linear-gradient(270deg,#ffffff 0%, #329d32 80%);
+    background: -moz-linear-gradient(270deg,#ffffff 0%, #329d32 80%);
+    clear: both;
+    color: #333;
+    text-align: center;
+    padding: 50px 0;
+    margin-top: 20px;
+    
+}
+
+.titulo-calendario{
+    
+    background-color: #ffffff;
+    
+    margin-top: 10px;
+}
+.calendario{
+    margin-top: 10px;
+    background-color: rgb(249, 242, 242);
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+
+.box-dia{
+    background-color: rgb(0, 255, 13);
+    border-radius: 5px;
+    border: black medium solid;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
