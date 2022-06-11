@@ -1,0 +1,30 @@
+#cuadrado1{
+    background-color: aqua;
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    border-color: black;
+}
+#cuadrado2{
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    border-color: black;
+}
+#cuadrado3{
+    background-color: blueviolet;
+    height: 100px;
+    width: 100px;
+    border: 10px;
+    border-color: black;
+}
+
+.box{
+    width: 500px;
+  }
+  
+  textarea{
+    width: 100%;
+    height: 100px;
+  }

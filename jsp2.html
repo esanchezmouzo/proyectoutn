@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jsp2style.css">
+    <title>Tarea 2 </title>
+</head>
+
+<body>
+
+    <div class="contenedor1">
+        <div id="cuadrado1">
+            <h3>1</h3>
+        </div>
+    </div>
+    <div class="contenedor2">
+        <div id="cuadrado2">
+            <h3>2</h3>
+        </div>
+    </div>
+    <div class="contenedor3">
+        <div id="cuadrado3">
+            <h3>3</h3>
+        </div>
+    </div>
+
+    <script>
+
+        let cuadrado1 = document.getElementById('cuadrado1')
+        function cambiocolorrojo() {
+            document.body.style.backgroundColor = "red"
+        }
+        cuadrado1.onclick = cambiocolorrojo
+        console.log(cuadrado1)
+
+        let cuadrado2 = document.getElementById('cuadrado2')
+        function cambiocolorazul() {
+            document.body.style.backgroundColor = "blue"
+        }
+        cuadrado2.onclick = cambiocolorazul
+
+        let cuadrado3 = document.getElementById('cuadrado3')
+        function cambiocoloramarillo() {
+            document.body.style.backgroundColor = "yellow"
+        }
+        cuadrado3.onclick = cambiocoloramarillo
+
+
+
+
+    </script>
+    <br>
+
+    <h5>Ej 2</h5>
+
+    <div class="box">
+        <textarea rows="3" maxlength="10" id="texta"></textarea>
+        <div id="contador">0/10</div>
+    </div>
+    <script>
+
+        const texta = document.getElementById('texta');
+        const contador = document.getElementById('contador');
+
+        texta.addEventListener('input', function (e) {
+            const target = e.target;
+            const longitudMax = target.getAttribute('maxlength');
+            const longitudAct = target.value.length;
+
+            contador.innerHTML = `${longitudAct}/${longitudMax}`;
+
+        });
+
+        //Cuando usas addEventListener lo que haces es "escuchar" (del inglés "listen") los eventos de un elemento. Cuando este evento es "escuchado" (cuando ocurre) le pasas el control a una función "escuchadora" (no se me ocurre otro nombre, del inglés "listener"). Al pasarle el control a esta función es posible que le pases el evento mismo que ha sido "escuchado".//
+
+    </script>
+
+
+
+
+    <script>
+
+        var alumnos = [
+            {
+                nombre: 'Juan Gomez',
+                nota: 7
+            }, {
+                nombre: 'Pedro Rodriguez',
+                nota: 4
+            }, {
+                nombre: 'Roxana García',
+                nota: 8
+            }, {
+                nombre: 'Luciano Lopez',
+                nota: 5
+            }, {
+                nombre: 'Fernanda Gimenez',
+                nota: 6
+            }, {
+                nombre: 'Florencia Martinez',
+                nota: 10
+            }, {
+                nombre: 'Raul Sanchez',
+                nota: 7
+            }, {
+                nombre: 'Sandra Figueroa',
+                nota: 8
+            }
+        ];
+        //con filter, declaramos un array con los resultados//
+        let aprobados = alumnos.filter(function (alumno) {
+            return alumno.nota >= 5;
+
+        })
+
+
+        for (var i = 0; i < alumnos.length; i++) {
+            document.write(`<p>alumno: ${aprobados[i].nombre} , Nota : ${aprobados[i].nota}<p>`)
+        }
+
+
+
+    </script>
+
+
+
+
+</body>
+
+</html>
