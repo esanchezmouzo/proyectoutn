@@ -30,9 +30,11 @@ header {
     justify-content: center;
     align-items: center;
 }
-.texto-titulo{
+
+.texto-titulo {
     padding-left: 30px;
 }
+
 
 /*----------Body----------*/
 
@@ -44,58 +46,141 @@ body {
 
 .carousel-inner {
     max-height: 400px;
-    
-}
-.carousel-item{
-    margin-left: 9.5rem;
+
 
 }
 
-footer{
-    background-color: rgba(27, 146, 64, 0.67);
+.carousel-item {
+    margin-left: 9.0rem;
+
+
+}
+
+footer {
+    background-color: #329d32;
     clear: both;
     color: #333;
     text-align: center;
-    padding: 50px 0;
-    margin-top: 20px;
+    padding: 30px 0;
+    margin-top: 0;
 }
 
-.horarios{
+.atencion {
     background: #ffffff;
-    background: linear-gradient(270deg,#ffffff 0%, #329d32 80%);
-    background: -webkit-linear-gradient(270deg,#ffffff 0%, #329d32 80%);
-    background: -moz-linear-gradient(270deg,#ffffff 0%, #329d32 80%);
+    background: linear-gradient(270deg, #ffffff 0%, #329d32 80%);
+    background: -webkit-linear-gradient(270deg, #ffffff 0%, #329d32 80%);
+    background: -moz-linear-gradient(270deg, #ffffff 0%, #329d32 80%);
     clear: both;
-    color: #333;
+
     text-align: center;
-    padding: 50px 0;
+    padding: 20px 0;
     margin-top: 20px;
-    
+    font-family: 'Noto Serif', serif;
+    font-weight: bold;
+
 }
 
-.titulo-calendario{
-    
-    background-color: #ffffff;
-    
-    margin-top: 10px;
+.atencion h4 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+
 }
-.calendario{
-    margin-top: 10px;
-    background-color: rgb(249, 242, 242);
-    width: auto;
+
+.contenedor-horarios {
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
-    
+
 }
 
-.box-dia{
-    background-color: rgb(0, 255, 13);
-    border-radius: 5px;
-    border: black medium solid;
+.dia {
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #130200;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    background: #15ba45;
+    width: 100px;
     height: 100px;
-    display: flex;
     justify-content: center;
     align-items: center;
 
+
+}
+
+.dia p {
+    margin-top: 15px;
+}
+
+/*----------Pag 2 nosotros----------*/
+
+.nosotros {
+    padding: 30px;
+
+}
+
+.nosotros h2 {
+    background-color: #329d32;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+
+.contenedor-nosotros {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.imagen-nosotros {
+    width: 40%;
+    margin-right: 10%;
+
+}
+
+.contenedor-nosotros-texto h3 span {
+    background-color: #329d32;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #130200;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
+
+
+}
+
+.texto1 {
+    padding: 20px;
+}
+
+.contenedor-nosotros-texto {
+    width: 40%;
+    padding: 10px;
+    background-color: hsla(120, 68%, 49%, 0.158);
+    border-radius: 10%;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubicacion{
+    text-align: center;
+    
+    justify-content: center;
+
+}
+
+.ubicacion h3 span {
+
+    background-color: #329d32;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #130200;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    display: inline-block;
+    text-align: center;
+    width: 300px;
 }
