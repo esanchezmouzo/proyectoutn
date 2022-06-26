@@ -44,17 +44,12 @@ body {
     line-height: 20px;
 }
 
-.carousel-inner {
-    max-height: 400px;
+.container{
 
-
+    max-height: 60%;
 }
 
-.carousel-item {
-    margin-left: 9.0rem;
 
-
-}
 
 footer {
     background-color: #329d32;
@@ -189,3 +184,58 @@ footer {
     text-align: center;
     width: 300px;
 }
+/*---------- Pag 3 productos ----------*/
+.productos-card{
+    display: flex;
+    padding: 10px;
+
+}
+
+.card{
+    margin: 10px;
+
+}
+
+.titulo-productos h2{
+    background-color: #329d32;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #130200;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+   
+    text-align: center;
+    margin-bottom: 40px;
+    width: 80%;
+    
+}
+.titulo-productos {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+/*---------- Pag 4 contacto ----------*/
+
+.titulo-contacto h2{
+    background-color: #329d32;
+    color: #ffffff;
+    border-radius: 20px 20px 20px 20px;
+    border: 3px solid #130200;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    -moz-border-radius: 20px 20px 20px 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    width: 80%;
+    
+}
+.titulo-contacto {
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
